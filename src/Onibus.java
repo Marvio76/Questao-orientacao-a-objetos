@@ -1,15 +1,14 @@
-package src;
 
-public class VLT extends VeiculoTransporte {
-    public VLT(String nome, int capacidade) {
+
+public class Onibus extends VeiculoTransporte {
+    public Onibus(String nome, int capacidade) {
         super(nome, capacidade);
     }
 
     @Override
     public double calcularCustoViagem() {
-        double capacidadePassageiros = 0;
-             // valor  //taxa
-        return 5.0 + (0.08 * capacidadePassageiros);
+        // valor  //taxa
+        return 3.50 + (0.1 * capacidadePassageiros);
     }
 
     @Override

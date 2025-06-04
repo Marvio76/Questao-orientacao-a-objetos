@@ -1,4 +1,3 @@
-package src;
 
 public class Metro extends VeiculoTransporte{
     public Metro(String nome, int capacidade) {

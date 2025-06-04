@@ -1,8 +1,8 @@
-package src;
+
 
 public abstract class VeiculoTransporte {
     private String nome;
-   public int capacidadePassageiros;
+    public int capacidadePassageiros;
     private int totalPassageiros;
     private int totalViagens;
     private double custoTotal;
